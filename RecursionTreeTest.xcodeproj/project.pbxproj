@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78CF5EAC724004815A7E878B /* libPods-RecursionTreeTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C01914D85FD1095C70049CC /* libPods-RecursionTreeTest.a */; };
+		C1DD01BD21DDDBA600B15B48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD01BC21DDDBA600B15B48 /* AppDelegate.m */; };
+		C1DD01C021DDDBA600B15B48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD01BF21DDDBA600B15B48 /* ViewController.m */; };
+		C1DD01C321DDDBA600B15B48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DD01C121DDDBA600B15B48 /* Main.storyboard */; };
+		C1DD01C521DDDBAF00B15B48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1DD01C421DDDBAF00B15B48 /* Assets.xcassets */; };
+		C1DD01C821DDDBAF00B15B48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DD01C621DDDBAF00B15B48 /* LaunchScreen.storyboard */; };
+		C1DD01CB21DDDBAF00B15B48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD01CA21DDDBAF00B15B48 /* main.m */; };
+		C1DD01D521DDDBAF00B15B48 /* RecursionTreeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD01D421DDDBAF00B15B48 /* RecursionTreeTestTests.m */; };
+		C1DD01E021DDDBAF00B15B48 /* RecursionTreeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD01DF21DDDBAF00B15B48 /* RecursionTreeTestUITests.m */; };
+		C1DD01EF21DDDD0800B15B48 /* json.txt in Resources */ = {isa = PBXBuildFile; fileRef = C1DD01EE21DDDD0800B15B48 /* json.txt */; };
+		C1DD01F921DDDE9A00B15B48 /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD01F721DDDE9900B15B48 /* MineVC.m */; };
+		C1DD01FC21DDDEC300B15B48 /* NodeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD01FB21DDDEC300B15B48 /* NodeItem.m */; };
+		C1DD022221DDE47E00B15B48 /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD022121DDE47E00B15B48 /* BaseRequest.m */; };
+		C1DD022521DDE68400B15B48 /* FirstRespone.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD022421DDE68400B15B48 /* FirstRespone.m */; };
+		C1DD022821DDE8F200B15B48 /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD022621DDE8F200B15B48 /* BaseResponse.m */; };
+		C1DD030321DDF1C700B15B48 /* NGNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD02F521DDF1C700B15B48 /* NGNetworkManager.m */; };
+		C1DD030421DDF1C700B15B48 /* NGResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD02F821DDF1C700B15B48 /* NGResponse.m */; };
+		C1DD030521DDF1C700B15B48 /* NGTask.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD02F921DDF1C700B15B48 /* NGTask.m */; };
+		C1DD030621DDF1C700B15B48 /* NGRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD02FA21DDF1C700B15B48 /* NGRequest.m */; };
+		C1DD030721DDF1C700B15B48 /* NGConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD030021DDF1C700B15B48 /* NGConfig.m */; };
+		C1DD030821DDF1C700B15B48 /* NSError+NGNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD030221DDF1C700B15B48 /* NSError+NGNetworking.m */; };
+		C1DD030E21DDF7AC00B15B48 /* MineViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD030D21DDF7AC00B15B48 /* MineViewCell.m */; };
+		C1DD031B21DE012500B15B48 /* NSObject+NGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD031721DE012500B15B48 /* NSObject+NGModel.m */; };
+		C1DD031C21DE012500B15B48 /* UIImage+DMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD031821DE012500B15B48 /* UIImage+DMExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1DD01D121DDDBAF00B15B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1DD01B021DDDBA600B15B48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1DD01B721DDDBA600B15B48;
+			remoteInfo = RecursionTreeTest;
+		};
+		C1DD01DC21DDDBAF00B15B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1DD01B021DDDBA600B15B48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1DD01B721DDDBA600B15B48;
+			remoteInfo = RecursionTreeTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C01914D85FD1095C70049CC /* libPods-RecursionTreeTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RecursionTreeTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1DD01B821DDDBA600B15B48 /* RecursionTreeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecursionTreeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1DD01BB21DDDBA600B15B48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1DD01BC21DDDBA600B15B48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1DD01BE21DDDBA600B15B48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1DD01BF21DDDBA600B15B48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1DD01C221DDDBA600B15B48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1DD01C421DDDBAF00B15B48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1DD01C721DDDBAF00B15B48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1DD01C921DDDBAF00B15B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1DD01CA21DDDBAF00B15B48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1DD01D021DDDBAF00B15B48 /* RecursionTreeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecursionTreeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1DD01D421DDDBAF00B15B48 /* RecursionTreeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecursionTreeTestTests.m; sourceTree = "<group>"; };
+		C1DD01D621DDDBAF00B15B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1DD01DB21DDDBAF00B15B48 /* RecursionTreeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecursionTreeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1DD01DF21DDDBAF00B15B48 /* RecursionTreeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecursionTreeTestUITests.m; sourceTree = "<group>"; };
+		C1DD01E121DDDBAF00B15B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1DD01ED21DDDCA800B15B48 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C1DD01EE21DDDD0800B15B48 /* json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json.txt; sourceTree = "<group>"; };
+		C1DD01F721DDDE9900B15B48 /* MineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		C1DD01F821DDDE9A00B15B48 /* MineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		C1DD01FA21DDDEC300B15B48 /* NodeItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodeItem.h; sourceTree = "<group>"; };
+		C1DD01FB21DDDEC300B15B48 /* NodeItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NodeItem.m; sourceTree = "<group>"; };
+		C1DD022021DDE47E00B15B48 /* BaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		C1DD022121DDE47E00B15B48 /* BaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		C1DD022321DDE68400B15B48 /* FirstRespone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstRespone.h; sourceTree = "<group>"; };
+		C1DD022421DDE68400B15B48 /* FirstRespone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstRespone.m; sourceTree = "<group>"; };
+		C1DD022621DDE8F200B15B48 /* BaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseResponse.m; sourceTree = "<group>"; };
+		C1DD022721DDE8F200B15B48 /* BaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseResponse.h; sourceTree = "<group>"; };
+		C1DD02F521DDF1C700B15B48 /* NGNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGNetworkManager.m; sourceTree = "<group>"; };
+		C1DD02F721DDF1C700B15B48 /* NGRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGRequest.h; sourceTree = "<group>"; };
+		C1DD02F821DDF1C700B15B48 /* NGResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGResponse.m; sourceTree = "<group>"; };
+		C1DD02F921DDF1C700B15B48 /* NGTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTask.m; sourceTree = "<group>"; };
+		C1DD02FA21DDF1C700B15B48 /* NGRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGRequest.m; sourceTree = "<group>"; };
+		C1DD02FB21DDF1C700B15B48 /* NGResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGResponse.h; sourceTree = "<group>"; };
+		C1DD02FC21DDF1C700B15B48 /* NGTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTask.h; sourceTree = "<group>"; };
+		C1DD02FD21DDF1C700B15B48 /* NGConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGConfig.h; sourceTree = "<group>"; };
+		C1DD02FE21DDF1C700B15B48 /* NSError+NGNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+NGNetworking.h"; sourceTree = "<group>"; };
+		C1DD02FF21DDF1C700B15B48 /* NGNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGNetworkManager.h; sourceTree = "<group>"; };
+		C1DD030021DDF1C700B15B48 /* NGConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGConfig.m; sourceTree = "<group>"; };
+		C1DD030121DDF1C700B15B48 /* NGNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGNetworking.h; sourceTree = "<group>"; };
+		C1DD030221DDF1C700B15B48 /* NSError+NGNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+NGNetworking.m"; sourceTree = "<group>"; };
+		C1DD030C21DDF7AC00B15B48 /* MineViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewCell.h; sourceTree = "<group>"; };
+		C1DD030D21DDF7AC00B15B48 /* MineViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewCell.m; sourceTree = "<group>"; };
+		C1DD031721DE012500B15B48 /* NSObject+NGModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NGModel.m"; sourceTree = "<group>"; };
+		C1DD031821DE012500B15B48 /* UIImage+DMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DMExtension.m"; sourceTree = "<group>"; };
+		C1DD031921DE012500B15B48 /* NSObject+NGModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NGModel.h"; sourceTree = "<group>"; };
+		C1DD031A21DE012500B15B48 /* UIImage+DMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DMExtension.h"; sourceTree = "<group>"; };
+		D4BAB8762B49023A419267A7 /* Pods-RecursionTreeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecursionTreeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecursionTreeTest/Pods-RecursionTreeTest.release.xcconfig"; sourceTree = "<group>"; };
+		FA523B679500234797C32A11 /* Pods-RecursionTreeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecursionTreeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecursionTreeTest/Pods-RecursionTreeTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1DD01B521DDDBA600B15B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CF5EAC724004815A7E878B /* libPods-RecursionTreeTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1DD01CD21DDDBAF00B15B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1DD01D821DDDBAF00B15B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A4C1DFA23C26CA4210145C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA523B679500234797C32A11 /* Pods-RecursionTreeTest.debug.xcconfig */,
+				D4BAB8762B49023A419267A7 /* Pods-RecursionTreeTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1DD01AF21DDDBA600B15B48 = {
+			isa = PBXGroup;
+			children = (
+				C1DD01BA21DDDBA600B15B48 /* RecursionTreeTest */,
+				C1DD01D321DDDBAF00B15B48 /* RecursionTreeTestTests */,
+				C1DD01DE21DDDBAF00B15B48 /* RecursionTreeTestUITests */,
+				C1DD01B921DDDBA600B15B48 /* Products */,
+				5A4C1DFA23C26CA4210145C5 /* Pods */,
+				C7BED395D52845B163E6AAA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1DD01B921DDDBA600B15B48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1DD01B821DDDBA600B15B48 /* RecursionTreeTest.app */,
+				C1DD01D021DDDBAF00B15B48 /* RecursionTreeTestTests.xctest */,
+				C1DD01DB21DDDBAF00B15B48 /* RecursionTreeTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1DD01BA21DDDBA600B15B48 /* RecursionTreeTest */ = {
+			isa = PBXGroup;
+			children = (
+				C1DD031621DE012500B15B48 /* Common */,
+				C1DD01FD21DDE38600B15B48 /* Other */,
+				C1DD01F321DDDE8000B15B48 /* Class */,
+				C1DD01BB21DDDBA600B15B48 /* AppDelegate.h */,
+				C1DD01BC21DDDBA600B15B48 /* AppDelegate.m */,
+				C1DD01BE21DDDBA600B15B48 /* ViewController.h */,
+				C1DD01BF21DDDBA600B15B48 /* ViewController.m */,
+				C1DD01C121DDDBA600B15B48 /* Main.storyboard */,
+				C1DD01C421DDDBAF00B15B48 /* Assets.xcassets */,
+				C1DD01C621DDDBAF00B15B48 /* LaunchScreen.storyboard */,
+				C1DD01C921DDDBAF00B15B48 /* Info.plist */,
+				C1DD01CA21DDDBAF00B15B48 /* main.m */,
+				C1DD01EE21DDDD0800B15B48 /* json.txt */,
+				C1DD01ED21DDDCA800B15B48 /* PrefixHeader.pch */,
+			);
+			path = RecursionTreeTest;
+			sourceTree = "<group>";
+		};
+		C1DD01D321DDDBAF00B15B48 /* RecursionTreeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1DD01D421DDDBAF00B15B48 /* RecursionTreeTestTests.m */,
+				C1DD01D621DDDBAF00B15B48 /* Info.plist */,
+			);
+			path = RecursionTreeTestTests;
+			sourceTree = "<group>";
+		};
+		C1DD01DE21DDDBAF00B15B48 /* RecursionTreeTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1DD01DF21DDDBAF00B15B48 /* RecursionTreeTestUITests.m */,
+				C1DD01E121DDDBAF00B15B48 /* Info.plist */,
+			);
+			path = RecursionTreeTestUITests;
+			sourceTree = "<group>";
+		};
+		C1DD01F321DDDE8000B15B48 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C1DD01F421DDDE8000B15B48 /* Models */,
+				C1DD01F521DDDE8000B15B48 /* Controllers */,
+				C1DD01F621DDDE8000B15B48 /* Views */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		C1DD01F421DDDE8000B15B48 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C1DD01FA21DDDEC300B15B48 /* NodeItem.h */,
+				C1DD01FB21DDDEC300B15B48 /* NodeItem.m */,
+				C1DD022021DDE47E00B15B48 /* BaseRequest.h */,
+				C1DD022121DDE47E00B15B48 /* BaseRequest.m */,
+				C1DD022721DDE8F200B15B48 /* BaseResponse.h */,
+				C1DD022621DDE8F200B15B48 /* BaseResponse.m */,
+				C1DD022321DDE68400B15B48 /* FirstRespone.h */,
+				C1DD022421DDE68400B15B48 /* FirstRespone.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C1DD01F521DDDE8000B15B48 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1DD01F821DDDE9A00B15B48 /* MineVC.h */,
+				C1DD01F721DDDE9900B15B48 /* MineVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C1DD01F621DDDE8000B15B48 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C1DD030C21DDF7AC00B15B48 /* MineViewCell.h */,
+				C1DD030D21DDF7AC00B15B48 /* MineViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C1DD01FD21DDE38600B15B48 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C1DD02F421DDF1C700B15B48 /* NGNetworking */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C1DD02F421DDF1C700B15B48 /* NGNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C1DD02F621DDF1C700B15B48 /* NGTask */,
+				C1DD02FD21DDF1C700B15B48 /* NGConfig.h */,
+				C1DD030021DDF1C700B15B48 /* NGConfig.m */,
+				C1DD02FF21DDF1C700B15B48 /* NGNetworkManager.h */,
+				C1DD02F521DDF1C700B15B48 /* NGNetworkManager.m */,
+				C1DD030121DDF1C700B15B48 /* NGNetworking.h */,
+				C1DD02FE21DDF1C700B15B48 /* NSError+NGNetworking.h */,
+				C1DD030221DDF1C700B15B48 /* NSError+NGNetworking.m */,
+			);
+			path = NGNetworking;
+			sourceTree = "<group>";
+		};
+		C1DD02F621DDF1C700B15B48 /* NGTask */ = {
+			isa = PBXGroup;
+			children = (
+				C1DD02FC21DDF1C700B15B48 /* NGTask.h */,
+				C1DD02F921DDF1C700B15B48 /* NGTask.m */,
+				C1DD02F721DDF1C700B15B48 /* NGRequest.h */,
+				C1DD02FA21DDF1C700B15B48 /* NGRequest.m */,
+				C1DD02FB21DDF1C700B15B48 /* NGResponse.h */,
+				C1DD02F821DDF1C700B15B48 /* NGResponse.m */,
+			);
+			path = NGTask;
+			sourceTree = "<group>";
+		};
+		C1DD031621DE012500B15B48 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C1DD031921DE012500B15B48 /* NSObject+NGModel.h */,
+				C1DD031721DE012500B15B48 /* NSObject+NGModel.m */,
+				C1DD031A21DE012500B15B48 /* UIImage+DMExtension.h */,
+				C1DD031821DE012500B15B48 /* UIImage+DMExtension.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C7BED395D52845B163E6AAA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C01914D85FD1095C70049CC /* libPods-RecursionTreeTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1DD01B721DDDBA600B15B48 /* RecursionTreeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1DD01E421DDDBAF00B15B48 /* Build configuration list for PBXNativeTarget "RecursionTreeTest" */;
+			buildPhases = (
+				EC6337CD79B0514FD5168225 /* [CP] Check Pods Manifest.lock */,
+				C1DD01B421DDDBA600B15B48 /* Sources */,
+				C1DD01B521DDDBA600B15B48 /* Frameworks */,
+				C1DD01B621DDDBA600B15B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecursionTreeTest;
+			productName = RecursionTreeTest;
+			productReference = C1DD01B821DDDBA600B15B48 /* RecursionTreeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1DD01CF21DDDBAF00B15B48 /* RecursionTreeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1DD01E721DDDBAF00B15B48 /* Build configuration list for PBXNativeTarget "RecursionTreeTestTests" */;
+			buildPhases = (
+				C1DD01CC21DDDBAF00B15B48 /* Sources */,
+				C1DD01CD21DDDBAF00B15B48 /* Frameworks */,
+				C1DD01CE21DDDBAF00B15B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1DD01D221DDDBAF00B15B48 /* PBXTargetDependency */,
+			);
+			name = RecursionTreeTestTests;
+			productName = RecursionTreeTestTests;
+			productReference = C1DD01D021DDDBAF00B15B48 /* RecursionTreeTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1DD01DA21DDDBAF00B15B48 /* RecursionTreeTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1DD01EA21DDDBAF00B15B48 /* Build configuration list for PBXNativeTarget "RecursionTreeTestUITests" */;
+			buildPhases = (
+				C1DD01D721DDDBAF00B15B48 /* Sources */,
+				C1DD01D821DDDBAF00B15B48 /* Frameworks */,
+				C1DD01D921DDDBAF00B15B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1DD01DD21DDDBAF00B15B48 /* PBXTargetDependency */,
+			);
+			name = RecursionTreeTestUITests;
+			productName = RecursionTreeTestUITests;
+			productReference = C1DD01DB21DDDBAF00B15B48 /* RecursionTreeTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1DD01B021DDDBA600B15B48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = isoft;
+				TargetAttributes = {
+					C1DD01B721DDDBA600B15B48 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C1DD01CF21DDDBAF00B15B48 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C1DD01B721DDDBA600B15B48;
+					};
+					C1DD01DA21DDDBAF00B15B48 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C1DD01B721DDDBA600B15B48;
+					};
+				};
+			};
+			buildConfigurationList = C1DD01B321DDDBA600B15B48 /* Build configuration list for PBXProject "RecursionTreeTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1DD01AF21DDDBA600B15B48;
+			productRefGroup = C1DD01B921DDDBA600B15B48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1DD01B721DDDBA600B15B48 /* RecursionTreeTest */,
+				C1DD01CF21DDDBAF00B15B48 /* RecursionTreeTestTests */,
+				C1DD01DA21DDDBAF00B15B48 /* RecursionTreeTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1DD01B621DDDBA600B15B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DD01EF21DDDD0800B15B48 /* json.txt in Resources */,
+				C1DD01C821DDDBAF00B15B48 /* LaunchScreen.storyboard in Resources */,
+				C1DD01C521DDDBAF00B15B48 /* Assets.xcassets in Resources */,
+				C1DD01C321DDDBA600B15B48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1DD01CE21DDDBAF00B15B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1DD01D921DDDBAF00B15B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC6337CD79B0514FD5168225 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecursionTreeTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1DD01B421DDDBA600B15B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DD01C021DDDBA600B15B48 /* ViewController.m in Sources */,
+				C1DD01FC21DDDEC300B15B48 /* NodeItem.m in Sources */,
+				C1DD022821DDE8F200B15B48 /* BaseResponse.m in Sources */,
+				C1DD022221DDE47E00B15B48 /* BaseRequest.m in Sources */,
+				C1DD031C21DE012500B15B48 /* UIImage+DMExtension.m in Sources */,
+				C1DD030821DDF1C700B15B48 /* NSError+NGNetworking.m in Sources */,
+				C1DD01CB21DDDBAF00B15B48 /* main.m in Sources */,
+				C1DD030321DDF1C700B15B48 /* NGNetworkManager.m in Sources */,
+				C1DD030721DDF1C700B15B48 /* NGConfig.m in Sources */,
+				C1DD030621DDF1C700B15B48 /* NGRequest.m in Sources */,
+				C1DD030421DDF1C700B15B48 /* NGResponse.m in Sources */,
+				C1DD031B21DE012500B15B48 /* NSObject+NGModel.m in Sources */,
+				C1DD01F921DDDE9A00B15B48 /* MineVC.m in Sources */,
+				C1DD022521DDE68400B15B48 /* FirstRespone.m in Sources */,
+				C1DD030E21DDF7AC00B15B48 /* MineViewCell.m in Sources */,
+				C1DD01BD21DDDBA600B15B48 /* AppDelegate.m in Sources */,
+				C1DD030521DDF1C700B15B48 /* NGTask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1DD01CC21DDDBAF00B15B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DD01D521DDDBAF00B15B48 /* RecursionTreeTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1DD01D721DDDBAF00B15B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DD01E021DDDBAF00B15B48 /* RecursionTreeTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1DD01D221DDDBAF00B15B48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1DD01B721DDDBA600B15B48 /* RecursionTreeTest */;
+			targetProxy = C1DD01D121DDDBAF00B15B48 /* PBXContainerItemProxy */;
+		};
+		C1DD01DD21DDDBAF00B15B48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1DD01B721DDDBA600B15B48 /* RecursionTreeTest */;
+			targetProxy = C1DD01DC21DDDBAF00B15B48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1DD01C121DDDBA600B15B48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1DD01C221DDDBA600B15B48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1DD01C621DDDBAF00B15B48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1DD01C721DDDBAF00B15B48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1DD01E221DDDBAF00B15B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1DD01E321DDDBAF00B15B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1DD01E521DDDBAF00B15B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA523B679500234797C32A11 /* Pods-RecursionTreeTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FT576V2RPV;
+				GCC_PREFIX_HEADER = $SRCROOT/RecursionTreeTest/PrefixHeader.pch;
+				INFOPLIST_FILE = RecursionTreeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isoftstone.RecursionTreeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1DD01E621DDDBAF00B15B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4BAB8762B49023A419267A7 /* Pods-RecursionTreeTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FT576V2RPV;
+				GCC_PREFIX_HEADER = $SRCROOT/RecursionTreeTest/PrefixHeader.pch;
+				INFOPLIST_FILE = RecursionTreeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isoftstone.RecursionTreeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1DD01E821DDDBAF00B15B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RecursionTreeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isoftstone.RecursionTreeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecursionTreeTest.app/RecursionTreeTest";
+			};
+			name = Debug;
+		};
+		C1DD01E921DDDBAF00B15B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RecursionTreeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isoftstone.RecursionTreeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecursionTreeTest.app/RecursionTreeTest";
+			};
+			name = Release;
+		};
+		C1DD01EB21DDDBAF00B15B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RecursionTreeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isoftstone.RecursionTreeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecursionTreeTest;
+			};
+			name = Debug;
+		};
+		C1DD01EC21DDDBAF00B15B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RecursionTreeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isoftstone.RecursionTreeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecursionTreeTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1DD01B321DDDBA600B15B48 /* Build configuration list for PBXProject "RecursionTreeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1DD01E221DDDBAF00B15B48 /* Debug */,
+				C1DD01E321DDDBAF00B15B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1DD01E421DDDBAF00B15B48 /* Build configuration list for PBXNativeTarget "RecursionTreeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1DD01E521DDDBAF00B15B48 /* Debug */,
+				C1DD01E621DDDBAF00B15B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1DD01E721DDDBAF00B15B48 /* Build configuration list for PBXNativeTarget "RecursionTreeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1DD01E821DDDBAF00B15B48 /* Debug */,
+				C1DD01E921DDDBAF00B15B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1DD01EA21DDDBAF00B15B48 /* Build configuration list for PBXNativeTarget "RecursionTreeTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1DD01EB21DDDBAF00B15B48 /* Debug */,
+				C1DD01EC21DDDBAF00B15B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1DD01B021DDDBA600B15B48 /* Project object */;
+}
